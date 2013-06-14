@@ -4,8 +4,9 @@ DialogMaker
 This is simple DialogMaker. It will help to keep the code clean when you are dealing with DialogBoxes
 
 Usage:
-
-`HashMap<Keys, String> params = new HashMap<Keys, String>();
+<pre>
+	<code>
+HashMap<Keys, String> params = new HashMap<Keys, String>();
 		params.put(Keys.BUTTON_1, "YES");
 		params.put(Keys.BUTTON_2, "NO");
 		params.put(Keys.MESSAGE, "This is a test");
@@ -22,8 +23,9 @@ Usage:
 				Log.i(TAG,"Button 2 clicked");
 			}
 
-		};`
-
+		};
+</code>
+</pre>
 Please use the sample. for more information. 
 You are more than welcome to edit the class to fit your need.
 This class is not supporting a custom Layout yet.
